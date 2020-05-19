@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "bash ./.node_lib.sh",
     "postinstall": "node ./.node_lib.js"
   },
   "keywords": [],
